@@ -1,0 +1,741 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2022.2.4">
+  <Settings>
+    <Param val="use prefs" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="use prefs" valType="str" updates="None" name="Audio lib"/>
+    <Param val="$&quot;https://psykuleuven.sona-systems.com/webstudy_credit.aspx?experiment_id=1767&amp;credit_token=98e3a8ee886b4335b0abe04ab1a82165&amp;survey_code=&quot; + expInfo['participant']" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="&quot;sub-&quot; + expInfo['ID'] + &quot;_ses-003_task-training_script-BR_date-&quot; + expInfo['date']" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="{'ID': ''}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="[1512, 982]" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="$[-1.0,-1.0,-1.0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="vbt_B1_day3" valType="str" updates="None" name="expName"/>
+    <Param val="on Save" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="ioHub" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="exp" valType="code" updates="None" name="logging level"/>
+    <Param val="('MIDDLE_BUTTON',)" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+  </Settings>
+  <Routines>
+    <Routine name="welcome">
+      <TextComponent name="welcome_text">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="welcome_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Goeiedag en welkom,&amp;#10;&amp;#10;Vandaag gaan we ons enkel concentreren op het leren van woorden. Net als in de vorige sessies zal er een gedeelte zijn waarin we bepaalde woorden oefenen, en daarna een test om te zien hoe goed u het doet. &amp;#10;&amp;#10;Klik met de muis om verder te gaan met de instructies.&amp;#10;" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <MouseComponent name="welcome_mouse">
+        <Param val="" valType="list" updates="constant" name="clickable"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="any click" valType="str" updates="constant" name="forceEndRoutineOnPress"/>
+        <Param val="welcome_mouse" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="newClicksOnly"/>
+        <Param val="final" valType="str" updates="None" name="saveMouseState"/>
+        <Param val="name," valType="list" updates="constant" name="saveParamsClickable"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="mouse onset" valType="str" updates="constant" name="timeRelativeTo"/>
+      </MouseComponent>
+    </Routine>
+    <Routine name="train_instr">
+      <TextComponent name="trainInstr_text">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="trainInstr_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Ter herinnering: u krijgt een woord in het nieuwe alfabet voorgeschoteld. We vragen u om het in stilte te lezen en het te proberen decoderen in Nederlandse letters. Wanneer u dit heeft gedaan, drukt u op de “pijl omlaag” op uw toetsenbord om de oplossing te zien. Daarna klikt u met de muis om verder te gaan naar het volgende woord. &amp;#10;&amp;#10;Soms ziet u een witte balk en wordt u gevraagd het antwoord te typen in plaats van het te decoderen in uw hoofd. De opdracht is dezelfde: druk op de onderste pijl op uw toetsenbord om de oplossing te controleren. Klik daarna met de muis om verder te gaan. &amp;#10;&amp;#10;Na de training volgt nog een korte test, dus let goed op de woorden. &amp;#10;&amp;#10;Klik met de muis om te starten met het leren van de woorden, en om door te gaan naar het volgende woord. &amp;#10;" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <MouseComponent name="trainInstr_mouse">
+        <Param val="" valType="list" updates="constant" name="clickable"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="any click" valType="str" updates="constant" name="forceEndRoutineOnPress"/>
+        <Param val="trainInstr_mouse" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="newClicksOnly"/>
+        <Param val="final" valType="str" updates="None" name="saveMouseState"/>
+        <Param val="name," valType="list" updates="constant" name="saveParamsClickable"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="mouse onset" valType="str" updates="constant" name="timeRelativeTo"/>
+      </MouseComponent>
+    </Routine>
+    <Routine name="end">
+      <TextComponent name="end_text">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="end_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="De test is nu voorbij.&amp;#10;&amp;#10;Dit betekent dat de oefening voorlopig voorbij is. Wacht tot het pop-up venster is gesloten voordat u de webpagina verlaat. &amp;#10;&amp;#10;Tot binnen enkele dagen!&amp;#10;&amp;#10;&amp;#10;" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="test_instr">
+      <TextComponent name="testInstr_text">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="testInstr_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="We gaan nu een korte test doen om te zien hoe goed u deze woorden heeft geleerd.&amp;#10;&amp;#10;U krijgt 60 items voorgelegd. Sommige zijn woorden die u net hebt gezien, sommige zijn nieuw en sommige hebben geen betekenis (niet-woorden). &amp;#10;Na 6 seconden verdwijnen de woorden en wordt u gevraagd om de overeenkomstige letterreeks (de vertaling) in te typen in het antwoordveld dat verschijnt. &amp;#10;Als er een letter is die je niet meer weet, kun je die overslaan door de letter simpelweg te vervangen door een punt '.'&amp;#10;&amp;#10;Probeer zo nauwkeurig mogelijk te zijn.&amp;#10;&amp;#10;Zodra uw antwoord is ingevoerd, klikt u met de muis om naar het volgende woord te gaan. &amp;#10;&amp;#10;Als u klaar bent voor de test, klik dan met de muis om te beginnen.&amp;#10;" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <MouseComponent name="testInstr_mouse">
+        <Param val="" valType="list" updates="constant" name="clickable"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="any click" valType="str" updates="constant" name="forceEndRoutineOnPress"/>
+        <Param val="testInstr_mouse" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="newClicksOnly"/>
+        <Param val="final" valType="str" updates="None" name="saveMouseState"/>
+        <Param val="name," valType="list" updates="constant" name="saveParamsClickable"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="mouse onset" valType="str" updates="constant" name="timeRelativeTo"/>
+      </MouseComponent>
+    </Routine>
+    <Routine name="test_report">
+      <TextComponent name="report_text">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.1" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="report_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="[TEST RESPONSE]" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="response_key">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="response_key" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="word_training">
+      <ImageComponent name="braille_word">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$brWrd" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="braille_word" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.7, 0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+      <TextComponent name="dutch_word">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="dutch_word" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -0.2)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="condition" valType="str" updates="None" name="startType"/>
+        <Param val="$translation_key.keys == 'down'" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$nlWrd" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="translation_key">
+        <Param val="'down'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="'t'" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="translation_key" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="3.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="True" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <CodeComponent name="word_code">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="if ((test === 1)) {&amp;#10;    word_rsp.editable = true;&amp;#10;    word_rsp.refresh();&amp;#10;    word_rsp.setAutoDraw(true);&amp;#10;}&amp;#10;console.log(test);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if test == 1:&amp;#10;    word_rsp.editable = true;&amp;#10;    word_rsp.refresh()&amp;#10;    word_rsp.setAutoDraw(True)&amp;#10;&amp;#10;print(test)" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="if ((test === 1)) {&amp;#10;    train_loop.addData(&quot;testResp&quot;, word_rsp._pixi.text);&amp;#10;    word_rsp.reset();&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="if test == 1:&amp;#10;    train_loop.addData('testResp',word_rsp._pixi.text)&amp;#10;    word_rsp.reset()&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="word_code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextboxComponent name="word_rsp">
+        <Param val="center" valType="str" updates="constant" name="alignment"/>
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="True" valType="bool" updates="constant" name="autoLog"/>
+        <Param val="False" valType="bool" updates="constant" name="bold"/>
+        <Param val="none" valType="color" updates="constant" name="borderColor"/>
+        <Param val="2" valType="num" updates="constant" name="borderWidth"/>
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="editable"/>
+        <Param val="white" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="italic"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="1.0" valType="num" updates="constant" name="lineSpacing"/>
+        <Param val="word_rsp" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="0" valType="num" updates="constant" name="padding"/>
+        <Param val="(0, -0.3)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.5, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="condition" valType="str" updates="None" name="startType"/>
+        <Param val="$test == 1" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </TextboxComponent>
+      <MouseComponent name="trWrd_mouse">
+        <Param val="" valType="list" updates="constant" name="clickable"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="any click" valType="str" updates="constant" name="forceEndRoutineOnPress"/>
+        <Param val="trWrd_mouse" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="newClicksOnly"/>
+        <Param val="final" valType="str" updates="None" name="saveMouseState"/>
+        <Param val="name," valType="list" updates="constant" name="saveParamsClickable"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="condition" valType="str" updates="None" name="startType"/>
+        <Param val="$translation_key.keys == 'down'" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="mouse onset" valType="str" updates="constant" name="timeRelativeTo"/>
+      </MouseComponent>
+    </Routine>
+    <Routine name="refresh_instr">
+      <TextComponent name="refresh_text">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="refresh_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Nous allons rafraîchir vos apprentissages sur les lettres. &amp;#10;&amp;#10;La tâche est la même que celle de la dernière session: vous verrez d'abord la lettre de la nouvelle langue, puis sa correspondance en français. En cliquant avec la souris vous passerez à la lettre suivante. Chaque lettre ne sera répétée qu’une seule fois. &amp;#10;&amp;#10;Lorsque vous êtes prêt à commencer, cliquez avec la souris pour commencer l'entraînement." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <MouseComponent name="refresh_mouse">
+        <Param val="" valType="list" updates="constant" name="clickable"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="any click" valType="str" updates="constant" name="forceEndRoutineOnPress"/>
+        <Param val="refresh_mouse" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="newClicksOnly"/>
+        <Param val="final" valType="str" updates="None" name="saveMouseState"/>
+        <Param val="name," valType="list" updates="constant" name="saveParamsClickable"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="mouse onset" valType="str" updates="constant" name="timeRelativeTo"/>
+      </MouseComponent>
+    </Routine>
+    <Routine name="let_refresh">
+      <ImageComponent name="outline">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="images/red_outline.jpg" valType="file" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="outline" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.11, 0.158)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+      <ImageComponent name="braille_letter">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$cbLet" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="braille_letter" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.1, 0.148)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="256" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+      <TextComponent name="french_letter">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.1" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="french_letter" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -0.2)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$frLet" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <MouseComponent name="braille_mouse">
+        <Param val="" valType="list" updates="constant" name="clickable"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="any click" valType="str" updates="constant" name="forceEndRoutineOnPress"/>
+        <Param val="braille_mouse" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="newClicksOnly"/>
+        <Param val="final" valType="str" updates="None" name="saveMouseState"/>
+        <Param val="name," valType="list" updates="constant" name="saveParamsClickable"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="3.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="mouse onset" valType="str" updates="constant" name="timeRelativeTo"/>
+      </MouseComponent>
+    </Routine>
+    <Routine name="word_test">
+      <ImageComponent name="test_word">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$brWrd" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="test_word" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.7, 0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="6" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+      <MouseComponent name="test_mouse">
+        <Param val="" valType="list" updates="constant" name="clickable"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="any click" valType="str" updates="constant" name="forceEndRoutineOnPress"/>
+        <Param val="test_mouse" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="newClicksOnly"/>
+        <Param val="final" valType="str" updates="None" name="saveMouseState"/>
+        <Param val="name," valType="list" updates="constant" name="saveParamsClickable"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="6" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="mouse onset" valType="str" updates="constant" name="timeRelativeTo"/>
+      </MouseComponent>
+      <TextboxComponent name="test_response">
+        <Param val="center" valType="str" updates="constant" name="alignment"/>
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="True" valType="bool" updates="constant" name="autoLog"/>
+        <Param val="False" valType="bool" updates="constant" name="bold"/>
+        <Param val="none" valType="color" updates="constant" name="borderColor"/>
+        <Param val="2" valType="num" updates="constant" name="borderWidth"/>
+        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="editable"/>
+        <Param val="white" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="italic"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="1.0" valType="num" updates="constant" name="lineSpacing"/>
+        <Param val="test_response" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="0" valType="num" updates="constant" name="padding"/>
+        <Param val="(0, -0.2)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.5, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="6" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </TextboxComponent>
+      <CodeComponent name="code">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="test_response.editable = true;&amp;#10;test_response.refresh();&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="test_response.editable = true;&amp;#10;test_response.refresh()" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="test_loop.addData(&quot;testResp&quot;, test_response._pixi.text);&amp;#10;test_response.reset();&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="test_loop.addData('testResp',test_response._pixi.text)&amp;#10;&amp;#10;# clear field&amp;#10;test_response.reset()" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="end_training">
+      <TextComponent name="endTrain_text">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="endTrain_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="De training is voorbij&amp;#10;&amp;#10;Neem een pauze van 5-10 minuten en laat ondertussen het beeldscherm staan op deze pagina. Kom terug voor de test wanneer u klaar bent.&amp;#10;&amp;#10;Als u dat gedaan heeft, klikt u met de muis om verder te gaan met de testinstructies.&amp;#10;" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <MouseComponent name="mouse">
+        <Param val="" valType="list" updates="constant" name="clickable"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="any click" valType="str" updates="constant" name="forceEndRoutineOnPress"/>
+        <Param val="mouse" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="newClicksOnly"/>
+        <Param val="final" valType="str" updates="None" name="saveMouseState"/>
+        <Param val="name," valType="list" updates="constant" name="saveParamsClickable"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="mouse onset" valType="str" updates="constant" name="timeRelativeTo"/>
+      </MouseComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="welcome"/>
+    <Routine name="train_instr"/>
+    <LoopInitiator loopType="TrialHandler" name="train_loop">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('nlWrd', 'slak'), ('brWrd', 'images/br_slak.png'), ('cbWrd', 'images/cb_slak.png'), ('test', 0)]), OrderedDict([('nlWrd', 'zaal'), ('brWrd', 'images/br_zaal.png'), ('cbWrd', 'images/cb_zaal.png'), ('test', 0)]), OrderedDict([('nlWrd', 'jaar'), ('brWrd', 'images/br_jaar.png'), ('cbWrd', 'images/cb_jaar.png'), ('test', 0)]), OrderedDict([('nlWrd', 'mand'), ('brWrd', 'images/br_mand.png'), ('cbWrd', 'images/cb_mand.png'), ('test', 0)]), OrderedDict([('nlWrd', 'moes'), ('brWrd', 'images/br_moes.png'), ('cbWrd', 'images/cb_moes.png'), ('test', 0)]), OrderedDict([('nlWrd', 'blad'), ('brWrd', 'images/br_blad.png'), ('cbWrd', 'images/cb_blad.png'), ('test', 0)]), OrderedDict([('nlWrd', 'diep'), ('brWrd', 'images/br_diep.png'), ('cbWrd', 'images/cb_diep.png'), ('test', 0)]), OrderedDict([('nlWrd', 'geld'), ('brWrd', 'images/br_geld.png'), ('cbWrd', 'images/cb_geld.png'), ('test', 0)]), OrderedDict([('nlWrd', 'knie'), ('brWrd', 'images/br_knie.png'), ('cbWrd', 'images/cb_knie.png'), ('test', 0)]), OrderedDict([('nlWrd', 'hier'), ('brWrd', 'images/br_hier.png'), ('cbWrd', 'images/cb_hier.png'), ('test', 0)]), OrderedDict([('nlWrd', 'leek'), ('brWrd', 'images/br_leek.png'), ('cbWrd', 'images/cb_leek.png'), ('test', 0)]), OrderedDict([('nlWrd', 'mode'), ('brWrd', 'images/br_mode.png'), ('cbWrd', 'images/cb_mode.png'), ('test', 0)]), OrderedDict([('nlWrd', 'kust'), ('brWrd', 'images/br_kust.png'), ('cbWrd', 'images/cb_kust.png'), ('test', 0)]), OrderedDict([('nlWrd', 'kaal'), ('brWrd', 'images/br_kaal.png'), ('cbWrd', 'images/cb_kaal.png'), ('test', 0)]), OrderedDict([('nlWrd', 'rijp'), ('brWrd', 'images/br_rijp.png'), ('cbWrd', 'images/cb_rijp.png'), ('test', 0)]), OrderedDict([('nlWrd', 'soda'), ('brWrd', 'images/br_soda.png'), ('cbWrd', 'images/cb_soda.png'), ('test', 0)]), OrderedDict([('nlWrd', 'ziek'), ('brWrd', 'images/br_ziek.png'), ('cbWrd', 'images/cb_ziek.png'), ('test', 0)]), OrderedDict([('nlWrd', 'taal'), ('brWrd', 'images/br_taal.png'), ('cbWrd', 'images/cb_taal.png'), ('test', 0)]), OrderedDict([('nlWrd', 'blik'), ('brWrd', 'images/br_blik.png'), ('cbWrd', 'images/cb_blik.png'), ('test', 0)]), OrderedDict([('nlWrd', 'geit'), ('brWrd', 'images/br_geit.png'), ('cbWrd', 'images/cb_geit.png'), ('test', 0)]), OrderedDict([('nlWrd', 'site'), ('brWrd', 'images/br_site.png'), ('cbWrd', 'images/cb_site.png'), ('test', 1)]), OrderedDict([('nlWrd', 'mist'), ('brWrd', 'images/br_mist.png'), ('cbWrd', 'images/cb_mist.png'), ('test', 1)]), OrderedDict([('nlWrd', 'stof'), ('brWrd', 'images/br_stof.png'), ('cbWrd', 'images/cb_stof.png'), ('test', 1)]), OrderedDict([('nlWrd', 'zout'), ('brWrd', 'images/br_zout.png'), ('cbWrd', 'images/cb_zout.png'), ('test', 1)]), OrderedDict([('nlWrd', 'jurk'), ('brWrd', 'images/br_jurk.png'), ('cbWrd', 'images/cb_jurk.png'), ('test', 0)]), OrderedDict([('nlWrd', 'plek'), ('brWrd', 'images/br_plek.png'), ('cbWrd', 'images/cb_plek.png'), ('test', 0)]), OrderedDict([('nlWrd', 'leuk'), ('brWrd', 'images/br_leuk.png'), ('cbWrd', 'images/cb_leuk.png'), ('test', 0)]), OrderedDict([('nlWrd', 'dans'), ('brWrd', 'images/br_dans.png'), ('cbWrd', 'images/cb_dans.png'), ('test', 0)]), OrderedDict([('nlWrd', 'stal'), ('brWrd', 'images/br_stal.png'), ('cbWrd', 'images/cb_stal.png'), ('test', 0)]), OrderedDict([('nlWrd', 'baas'), ('brWrd', 'images/br_baas.png'), ('cbWrd', 'images/cb_baas.png'), ('test', 0)]), OrderedDict([('nlWrd', 'uien'), ('brWrd', 'images/br_uien.png'), ('cbWrd', 'images/cb_uien.png'), ('test', 0)]), OrderedDict([('nlWrd', 'poes'), ('brWrd', 'images/br_poes.png'), ('cbWrd', 'images/cb_poes.png'), ('test', 0)]), OrderedDict([('nlWrd', 'palm'), ('brWrd', 'images/br_palm.png'), ('cbWrd', 'images/cb_palm.png'), ('test', 0)]), OrderedDict([('nlWrd', 'vlek'), ('brWrd', 'images/br_vlek.png'), ('cbWrd', 'images/cb_vlek.png'), ('test', 0)]), OrderedDict([('nlWrd', 'vorm'), ('brWrd', 'images/br_vorm.png'), ('cbWrd', 'images/cb_vorm.png'), ('test', 0)]), OrderedDict([('nlWrd', 'lust'), ('brWrd', 'images/br_lust.png'), ('cbWrd', 'images/cb_lust.png'), ('test', 0)]), OrderedDict([('nlWrd', 'vuur'), ('brWrd', 'images/br_vuur.png'), ('cbWrd', 'images/cb_vuur.png'), ('test', 0)]), OrderedDict([('nlWrd', 'mijn'), ('brWrd', 'images/br_mijn.png'), ('cbWrd', 'images/cb_mijn.png'), ('test', 0)]), OrderedDict([('nlWrd', 'baai'), ('brWrd', 'images/br_baai.png'), ('cbWrd', 'images/cb_baai.png'), ('test', 0)]), OrderedDict([('nlWrd', 'laag'), ('brWrd', 'images/br_laag.png'), ('cbWrd', 'images/cb_laag.png'), ('test', 0)]), OrderedDict([('nlWrd', 'schep'), ('brWrd', 'images/br_schep.png'), ('cbWrd', 'images/cb_schep.png'), ('test', 0)]), OrderedDict([('nlWrd', 'maken'), ('brWrd', 'images/br_maken.png'), ('cbWrd', 'images/cb_maken.png'), ('test', 0)]), OrderedDict([('nlWrd', 'bleek'), ('brWrd', 'images/br_bleek.png'), ('cbWrd', 'images/cb_bleek.png'), ('test', 0)]), OrderedDict([('nlWrd', 'klauw'), ('brWrd', 'images/br_klauw.png'), ('cbWrd', 'images/cb_klauw.png'), ('test', 0)]), OrderedDict([('nlWrd', 'flits'), ('brWrd', 'images/br_flits.png'), ('cbWrd', 'images/cb_flits.png'), ('test', 0)]), OrderedDict([('nlWrd', 'piste'), ('brWrd', 'images/br_piste.png'), ('cbWrd', 'images/cb_piste.png'), ('test', 0)]), OrderedDict([('nlWrd', 'jagen'), ('brWrd', 'images/br_jagen.png'), ('cbWrd', 'images/cb_jagen.png'), ('test', 0)]), OrderedDict([('nlWrd', 'kabel'), ('brWrd', 'images/br_kabel.png'), ('cbWrd', 'images/cb_kabel.png'), ('test', 0)]), OrderedDict([('nlWrd', 'steel'), ('brWrd', 'images/br_steel.png'), ('cbWrd', 'images/cb_steel.png'), ('test', 0)]), OrderedDict([('nlWrd', 'laken'), ('brWrd', 'images/br_laken.png'), ('cbWrd', 'images/cb_laken.png'), ('test', 0)]), OrderedDict([('nlWrd', 'stoom'), ('brWrd', 'images/br_stoom.png'), ('cbWrd', 'images/cb_stoom.png'), ('test', 0)]), OrderedDict([('nlWrd', 'samen'), ('brWrd', 'images/br_samen.png'), ('cbWrd', 'images/cb_samen.png'), ('test', 0)]), OrderedDict([('nlWrd', 'wagon'), ('brWrd', 'images/br_wagon.png'), ('cbWrd', 'images/cb_wagon.png'), ('test', 0)]), OrderedDict([('nlWrd', 'baron'), ('brWrd', 'images/br_baron.png'), ('cbWrd', 'images/cb_baron.png'), ('test', 0)]), OrderedDict([('nlWrd', 'gebit'), ('brWrd', 'images/br_gebit.png'), ('cbWrd', 'images/cb_gebit.png'), ('test', 0)]), OrderedDict([('nlWrd', 'praat'), ('brWrd', 'images/br_praat.png'), ('cbWrd', 'images/cb_praat.png'), ('test', 0)]), OrderedDict([('nlWrd', 'traag'), ('brWrd', 'images/br_traag.png'), ('cbWrd', 'images/cb_traag.png'), ('test', 0)]), OrderedDict([('nlWrd', 'steek'), ('brWrd', 'images/br_steek.png'), ('cbWrd', 'images/cb_steek.png'), ('test', 0)]), OrderedDict([('nlWrd', 'tekst'), ('brWrd', 'images/br_tekst.png'), ('cbWrd', 'images/cb_tekst.png'), ('test', 0)]), OrderedDict([('nlWrd', 'kring'), ('brWrd', 'images/br_kring.png'), ('cbWrd', 'images/cb_kring.png'), ('test', 0)]), OrderedDict([('nlWrd', 'jasje'), ('brWrd', 'images/br_jasje.png'), ('cbWrd', 'images/cb_jasje.png'), ('test', 1)]), OrderedDict([('nlWrd', 'groen'), ('brWrd', 'images/br_groen.png'), ('cbWrd', 'images/cb_groen.png'), ('test', 1)]), OrderedDict([('nlWrd', 'knaap'), ('brWrd', 'images/br_knaap.png'), ('cbWrd', 'images/cb_knaap.png'), ('test', 1)]), OrderedDict([('nlWrd', 'flirt'), ('brWrd', 'images/br_flirt.png'), ('cbWrd', 'images/cb_flirt.png'), ('test', 1)]), OrderedDict([('nlWrd', 'wegen'), ('brWrd', 'images/br_wegen.png'), ('cbWrd', 'images/cb_wegen.png'), ('test', 0)]), OrderedDict([('nlWrd', 'parel'), ('brWrd', 'images/br_parel.png'), ('cbWrd', 'images/cb_parel.png'), ('test', 0)]), OrderedDict([('nlWrd', 'lever'), ('brWrd', 'images/br_lever.png'), ('cbWrd', 'images/cb_lever.png'), ('test', 0)]), OrderedDict([('nlWrd', 'zwart'), ('brWrd', 'images/br_zwart.png'), ('cbWrd', 'images/cb_zwart.png'), ('test', 0)]), OrderedDict([('nlWrd', 'schat'), ('brWrd', 'images/br_schat.png'), ('cbWrd', 'images/cb_schat.png'), ('test', 0)]), OrderedDict([('nlWrd', 'waken'), ('brWrd', 'images/br_waken.png'), ('cbWrd', 'images/cb_waken.png'), ('test', 0)]), OrderedDict([('nlWrd', 'ijdel'), ('brWrd', 'images/br_ijdel.png'), ('cbWrd', 'images/cb_ijdel.png'), ('test', 0)]), OrderedDict([('nlWrd', 'bever'), ('brWrd', 'images/br_bever.png'), ('cbWrd', 'images/cb_bever.png'), ('test', 0)]), OrderedDict([('nlWrd', 'strak'), ('brWrd', 'images/br_strak.png'), ('cbWrd', 'images/cb_strak.png'), ('test', 0)]), OrderedDict([('nlWrd', 'volop'), ('brWrd', 'images/br_volop.png'), ('cbWrd', 'images/cb_volop.png'), ('test', 0)]), OrderedDict([('nlWrd', 'graaf'), ('brWrd', 'images/br_graaf.png'), ('cbWrd', 'images/cb_graaf.png'), ('test', 0)]), OrderedDict([('nlWrd', 'snoep'), ('brWrd', 'images/br_snoep.png'), ('cbWrd', 'images/cb_snoep.png'), ('test', 0)]), OrderedDict([('nlWrd', 'afval'), ('brWrd', 'images/br_afval.png'), ('cbWrd', 'images/cb_afval.png'), ('test', 0)]), OrderedDict([('nlWrd', 'woede'), ('brWrd', 'images/br_woede.png'), ('cbWrd', 'images/cb_woede.png'), ('test', 0)]), OrderedDict([('nlWrd', 'leren'), ('brWrd', 'images/br_leren.png'), ('cbWrd', 'images/cb_leren.png'), ('test', 0)]), OrderedDict([('nlWrd', 'nodig'), ('brWrd', 'images/br_nodig.png'), ('cbWrd', 'images/cb_nodig.png'), ('test', 0)]), OrderedDict([('nlWrd', 'kanjer'), ('brWrd', 'images/br_kanjer.png'), ('cbWrd', 'images/cb_kanjer.png'), ('test', 0)]), OrderedDict([('nlWrd', 'dubbel'), ('brWrd', 'images/br_dubbel.png'), ('cbWrd', 'images/cb_dubbel.png'), ('test', 0)]), OrderedDict([('nlWrd', 'muziek'), ('brWrd', 'images/br_muziek.png'), ('cbWrd', 'images/cb_muziek.png'), ('test', 0)]), OrderedDict([('nlWrd', 'mening'), ('brWrd', 'images/br_mening.png'), ('cbWrd', 'images/cb_mening.png'), ('test', 0)]), OrderedDict([('nlWrd', 'lokken'), ('brWrd', 'images/br_lokken.png'), ('cbWrd', 'images/cb_lokken.png'), ('test', 0)]), OrderedDict([('nlWrd', 'heilig'), ('brWrd', 'images/br_heilig.png'), ('cbWrd', 'images/cb_heilig.png'), ('test', 0)]), OrderedDict([('nlWrd', 'woning'), ('brWrd', 'images/br_woning.png'), ('cbWrd', 'images/cb_woning.png'), ('test', 0)]), OrderedDict([('nlWrd', 'toeval'), ('brWrd', 'images/br_toeval.png'), ('cbWrd', 'images/cb_toeval.png'), ('test', 0)]), OrderedDict([('nlWrd', 'boeien'), ('brWrd', 'images/br_boeien.png'), ('cbWrd', 'images/cb_boeien.png'), ('test', 0)]), OrderedDict([('nlWrd', 'slapen'), ('brWrd', 'images/br_slapen.png'), ('cbWrd', 'images/cb_slapen.png'), ('test', 0)]), OrderedDict([('nlWrd', 'geluid'), ('brWrd', 'images/br_geluid.png'), ('cbWrd', 'images/cb_geluid.png'), ('test', 0)]), OrderedDict([('nlWrd', 'gezond'), ('brWrd', 'images/br_gezond.png'), ('cbWrd', 'images/cb_gezond.png'), ('test', 0)]), OrderedDict([('nlWrd', 'geheim'), ('brWrd', 'images/br_geheim.png'), ('cbWrd', 'images/cb_geheim.png'), ('test', 0)]), OrderedDict([('nlWrd', 'waarop'), ('brWrd', 'images/br_waarop.png'), ('cbWrd', 'images/cb_waarop.png'), ('test', 0)]), OrderedDict([('nlWrd', 'oceaan'), ('brWrd', 'images/br_oceaan.png'), ('cbWrd', 'images/cb_oceaan.png'), ('test', 0)]), OrderedDict([('nlWrd', 'vreten'), ('brWrd', 'images/br_vreten.png'), ('cbWrd', 'images/cb_vreten.png'), ('test', 0)]), OrderedDict([('nlWrd', 'slagen'), ('brWrd', 'images/br_slagen.png'), ('cbWrd', 'images/cb_slagen.png'), ('test', 0)]), OrderedDict([('nlWrd', 'loyaal'), ('brWrd', 'images/br_loyaal.png'), ('cbWrd', 'images/cb_loyaal.png'), ('test', 0)]), OrderedDict([('nlWrd', 'kreeft'), ('brWrd', 'images/br_kreeft.png'), ('cbWrd', 'images/cb_kreeft.png'), ('test', 0)]), OrderedDict([('nlWrd', 'koffie'), ('brWrd', 'images/br_koffie.png'), ('cbWrd', 'images/cb_koffie.png'), ('test', 0)]), OrderedDict([('nlWrd', 'geduld'), ('brWrd', 'images/br_geduld.png'), ('cbWrd', 'images/cb_geduld.png'), ('test', 1)]), OrderedDict([('nlWrd', 'staren'), ('brWrd', 'images/br_staren.png'), ('cbWrd', 'images/cb_staren.png'), ('test', 1)]), OrderedDict([('nlWrd', 'legaal'), ('brWrd', 'images/br_legaal.png'), ('cbWrd', 'images/cb_legaal.png'), ('test', 1)]), OrderedDict([('nlWrd', 'joggen'), ('brWrd', 'images/br_joggen.png'), ('cbWrd', 'images/cb_joggen.png'), ('test', 1)]), OrderedDict([('nlWrd', 'zweven'), ('brWrd', 'images/br_zweven.png'), ('cbWrd', 'images/cb_zweven.png'), ('test', 0)]), OrderedDict([('nlWrd', 'wijlen'), ('brWrd', 'images/br_wijlen.png'), ('cbWrd', 'images/cb_wijlen.png'), ('test', 0)]), OrderedDict([('nlWrd', 'zingen'), ('brWrd', 'images/br_zingen.png'), ('cbWrd', 'images/cb_zingen.png'), ('test', 0)]), OrderedDict([('nlWrd', 'maling'), ('brWrd', 'images/br_maling.png'), ('cbWrd', 'images/cb_maling.png'), ('test', 0)]), OrderedDict([('nlWrd', 'excuus'), ('brWrd', 'images/br_excuus.png'), ('cbWrd', 'images/cb_excuus.png'), ('test', 0)]), OrderedDict([('nlWrd', 'totaal'), ('brWrd', 'images/br_totaal.png'), ('cbWrd', 'images/cb_totaal.png'), ('test', 0)]), OrderedDict([('nlWrd', 'zuster'), ('brWrd', 'images/br_zuster.png'), ('cbWrd', 'images/cb_zuster.png'), ('test', 0)]), OrderedDict([('nlWrd', 'ticket'), ('brWrd', 'images/br_ticket.png'), ('cbWrd', 'images/cb_ticket.png'), ('test', 0)]), OrderedDict([('nlWrd', 'lukken'), ('brWrd', 'images/br_lukken.png'), ('cbWrd', 'images/cb_lukken.png'), ('test', 0)]), OrderedDict([('nlWrd', 'koppen'), ('brWrd', 'images/br_koppen.png'), ('cbWrd', 'images/cb_koppen.png'), ('test', 0)]), OrderedDict([('nlWrd', 'vullen'), ('brWrd', 'images/br_vullen.png'), ('cbWrd', 'images/cb_vullen.png'), ('test', 0)]), OrderedDict([('nlWrd', 'kleren'), ('brWrd', 'images/br_kleren.png'), ('cbWrd', 'images/cb_kleren.png'), ('test', 0)]), OrderedDict([('nlWrd', 'besmet'), ('brWrd', 'images/br_besmet.png'), ('cbWrd', 'images/cb_besmet.png'), ('test', 0)]), OrderedDict([('nlWrd', 'kennis'), ('brWrd', 'images/br_kennis.png'), ('cbWrd', 'images/cb_kennis.png'), ('test', 0)]), OrderedDict([('nlWrd', 'vinger'), ('brWrd', 'images/br_vinger.png'), ('cbWrd', 'images/cb_vinger.png'), ('test', 0)]), OrderedDict([('nlWrd', 'liefje'), ('brWrd', 'images/br_liefje.png'), ('cbWrd', 'images/cb_liefje.png'), ('test', 0)]), OrderedDict([('nlWrd', 'klimmen'), ('brWrd', 'images/br_klimmen.png'), ('cbWrd', 'images/cb_klimmen.png'), ('test', 0)]), OrderedDict([('nlWrd', 'twijfel'), ('brWrd', 'images/br_twijfel.png'), ('cbWrd', 'images/cb_twijfel.png'), ('test', 0)]), OrderedDict([('nlWrd', 'waarvan'), ('brWrd', 'images/br_waarvan.png'), ('cbWrd', 'images/cb_waarvan.png'), ('test', 0)]), OrderedDict([('nlWrd', 'hiervan'), ('brWrd', 'images/br_hiervan.png'), ('cbWrd', 'images/cb_hiervan.png'), ('test', 0)]), OrderedDict([('nlWrd', 'bloeien'), ('brWrd', 'images/br_bloeien.png'), ('cbWrd', 'images/cb_bloeien.png'), ('test', 0)]), OrderedDict([('nlWrd', 'aanzien'), ('brWrd', 'images/br_aanzien.png'), ('cbWrd', 'images/cb_aanzien.png'), ('test', 0)]), OrderedDict([('nlWrd', 'kasteel'), ('brWrd', 'images/br_kasteel.png'), ('cbWrd', 'images/cb_kasteel.png'), ('test', 0)]), OrderedDict([('nlWrd', 'doodmoe'), ('brWrd', 'images/br_doodmoe.png'), ('cbWrd', 'images/cb_doodmoe.png'), ('test', 0)]), OrderedDict([('nlWrd', 'prikken'), ('brWrd', 'images/br_prikken.png'), ('cbWrd', 'images/cb_prikken.png'), ('test', 0)]), OrderedDict([('nlWrd', 'verhaal'), ('brWrd', 'images/br_verhaal.png'), ('cbWrd', 'images/cb_verhaal.png'), ('test', 0)]), OrderedDict([('nlWrd', 'keihard'), ('brWrd', 'images/br_keihard.png'), ('cbWrd', 'images/cb_keihard.png'), ('test', 0)]), OrderedDict([('nlWrd', 'opzicht'), ('brWrd', 'images/br_opzicht.png'), ('cbWrd', 'images/cb_opzicht.png'), ('test', 0)]), OrderedDict([('nlWrd', 'grappen'), ('brWrd', 'images/br_grappen.png'), ('cbWrd', 'images/cb_grappen.png'), ('test', 0)]), OrderedDict([('nlWrd', 'seizoen'), ('brWrd', 'images/br_seizoen.png'), ('cbWrd', 'images/cb_seizoen.png'), ('test', 0)]), OrderedDict([('nlWrd', 'geliefd'), ('brWrd', 'images/br_geliefd.png'), ('cbWrd', 'images/cb_geliefd.png'), ('test', 0)]), OrderedDict([('nlWrd', 'gedicht'), ('brWrd', 'images/br_gedicht.png'), ('cbWrd', 'images/cb_gedicht.png'), ('test', 0)]), OrderedDict([('nlWrd', 'waarbij'), ('brWrd', 'images/br_waarbij.png'), ('cbWrd', 'images/cb_waarbij.png'), ('test', 0)]), OrderedDict([('nlWrd', 'trekker'), ('brWrd', 'images/br_trekker.png'), ('cbWrd', 'images/cb_trekker.png'), ('test', 0)]), OrderedDict([('nlWrd', 'akkoord'), ('brWrd', 'images/br_akkoord.png'), ('cbWrd', 'images/cb_akkoord.png'), ('test', 0)]), OrderedDict([('nlWrd', 'stiekem'), ('brWrd', 'images/br_stiekem.png'), ('cbWrd', 'images/cb_stiekem.png'), ('test', 0)]), OrderedDict([('nlWrd', 'blijven'), ('brWrd', 'images/br_blijven.png'), ('cbWrd', 'images/cb_blijven.png'), ('test', 1)]), OrderedDict([('nlWrd', 'knielen'), ('brWrd', 'images/br_knielen.png'), ('cbWrd', 'images/cb_knielen.png'), ('test', 1)]), OrderedDict([('nlWrd', 'snuiven'), ('brWrd', 'images/br_snuiven.png'), ('cbWrd', 'images/cb_snuiven.png'), ('test', 1)]), OrderedDict([('nlWrd', 'hechten'), ('brWrd', 'images/br_hechten.png'), ('cbWrd', 'images/cb_hechten.png'), ('test', 1)]), OrderedDict([('nlWrd', 'eetlust'), ('brWrd', 'images/br_eetlust.png'), ('cbWrd', 'images/cb_eetlust.png'), ('test', 0)]), OrderedDict([('nlWrd', 'invloed'), ('brWrd', 'images/br_invloed.png'), ('cbWrd', 'images/cb_invloed.png'), ('test', 0)]), OrderedDict([('nlWrd', 'opkomen'), ('brWrd', 'images/br_opkomen.png'), ('cbWrd', 'images/cb_opkomen.png'), ('test', 0)]), OrderedDict([('nlWrd', 'komisch'), ('brWrd', 'images/br_komisch.png'), ('cbWrd', 'images/cb_komisch.png'), ('test', 0)]), OrderedDict([('nlWrd', 'smullen'), ('brWrd', 'images/br_smullen.png'), ('cbWrd', 'images/cb_smullen.png'), ('test', 0)]), OrderedDict([('nlWrd', 'redding'), ('brWrd', 'images/br_redding.png'), ('cbWrd', 'images/cb_redding.png'), ('test', 0)]), OrderedDict([('nlWrd', 'gegeven'), ('brWrd', 'images/br_gegeven.png'), ('cbWrd', 'images/cb_gegeven.png'), ('test', 0)]), OrderedDict([('nlWrd', 'aanzoek'), ('brWrd', 'images/br_aanzoek.png'), ('cbWrd', 'images/cb_aanzoek.png'), ('test', 0)]), OrderedDict([('nlWrd', 'afnemen'), ('brWrd', 'images/br_afnemen.png'), ('cbWrd', 'images/cb_afnemen.png'), ('test', 0)]), OrderedDict([('nlWrd', 'vervoer'), ('brWrd', 'images/br_vervoer.png'), ('cbWrd', 'images/cb_vervoer.png'), ('test', 0)]), OrderedDict([('nlWrd', 'aflopen'), ('brWrd', 'images/br_aflopen.png'), ('cbWrd', 'images/cb_aflopen.png'), ('test', 0)]), OrderedDict([('nlWrd', 'gerucht'), ('brWrd', 'images/br_gerucht.png'), ('cbWrd', 'images/cb_gerucht.png'), ('test', 0)]), OrderedDict([('nlWrd', 'rechten'), ('brWrd', 'images/br_rechten.png'), ('cbWrd', 'images/cb_rechten.png'), ('test', 0)]), OrderedDict([('nlWrd', 'uitlaat'), ('brWrd', 'images/br_uitlaat.png'), ('cbWrd', 'images/cb_uitlaat.png'), ('test', 0)]), OrderedDict([('nlWrd', 'innemen'), ('brWrd', 'images/br_innemen.png'), ('cbWrd', 'images/cb_innemen.png'), ('test', 0)]), OrderedDict([('nlWrd', 'sufferd'), ('brWrd', 'images/br_sufferd.png'), ('cbWrd', 'images/cb_sufferd.png'), ('test', 0)]), OrderedDict([('nlWrd', 'daarheen'), ('brWrd', 'images/br_daarheen.png'), ('cbWrd', 'images/cb_daarheen.png'), ('test', 0)]), OrderedDict([('nlWrd', 'attentie'), ('brWrd', 'images/br_attentie.png'), ('cbWrd', 'images/cb_attentie.png'), ('test', 0)]), OrderedDict([('nlWrd', 'uitdelen'), ('brWrd', 'images/br_uitdelen.png'), ('cbWrd', 'images/cb_uitdelen.png'), ('test', 0)]), OrderedDict([('nlWrd', 'schuilen'), ('brWrd', 'images/br_schuilen.png'), ('cbWrd', 'images/cb_schuilen.png'), ('test', 0)]), OrderedDict([('nlWrd', 'anarchie'), ('brWrd', 'images/br_anarchie.png'), ('cbWrd', 'images/cb_anarchie.png'), ('test', 0)]), OrderedDict([('nlWrd', 'feestdag'), ('brWrd', 'images/br_feestdag.png'), ('cbWrd', 'images/cb_feestdag.png'), ('test', 0)]), OrderedDict([('nlWrd', 'strikken'), ('brWrd', 'images/br_strikken.png'), ('cbWrd', 'images/cb_strikken.png'), ('test', 0)]), OrderedDict([('nlWrd', 'eenhoorn'), ('brWrd', 'images/br_eenhoorn.png'), ('cbWrd', 'images/cb_eenhoorn.png'), ('test', 0)]), OrderedDict([('nlWrd', 'bisschop'), ('brWrd', 'images/br_bisschop.png'), ('cbWrd', 'images/cb_bisschop.png'), ('test', 0)]), OrderedDict([('nlWrd', 'oprotten'), ('brWrd', 'images/br_oprotten.png'), ('cbWrd', 'images/cb_oprotten.png'), ('test', 0)]), OrderedDict([('nlWrd', 'schatten'), ('brWrd', 'images/br_schatten.png'), ('cbWrd', 'images/cb_schatten.png'), ('test', 0)]), OrderedDict([('nlWrd', 'aarzelen'), ('brWrd', 'images/br_aarzelen.png'), ('cbWrd', 'images/cb_aarzelen.png'), ('test', 0)]), OrderedDict([('nlWrd', 'weigeren'), ('brWrd', 'images/br_weigeren.png'), ('cbWrd', 'images/cb_weigeren.png'), ('test', 0)]), OrderedDict([('nlWrd', 'apparaat'), ('brWrd', 'images/br_apparaat.png'), ('cbWrd', 'images/cb_apparaat.png'), ('test', 0)]), OrderedDict([('nlWrd', 'stemming'), ('brWrd', 'images/br_stemming.png'), ('cbWrd', 'images/cb_stemming.png'), ('test', 0)]), OrderedDict([('nlWrd', 'heengaan'), ('brWrd', 'images/br_heengaan.png'), ('cbWrd', 'images/cb_heengaan.png'), ('test', 0)]), OrderedDict([('nlWrd', 'techniek'), ('brWrd', 'images/br_techniek.png'), ('cbWrd', 'images/cb_techniek.png'), ('test', 0)]), OrderedDict([('nlWrd', 'maaltijd'), ('brWrd', 'images/br_maaltijd.png'), ('cbWrd', 'images/cb_maaltijd.png'), ('test', 0)]), OrderedDict([('nlWrd', 'huisdier'), ('brWrd', 'images/br_huisdier.png'), ('cbWrd', 'images/cb_huisdier.png'), ('test', 0)]), OrderedDict([('nlWrd', 'woestijn'), ('brWrd', 'images/br_woestijn.png'), ('cbWrd', 'images/cb_woestijn.png'), ('test', 0)]), OrderedDict([('nlWrd', 'openbaar'), ('brWrd', 'images/br_openbaar.png'), ('cbWrd', 'images/cb_openbaar.png'), ('test', 1)]), OrderedDict([('nlWrd', 'toegeven'), ('brWrd', 'images/br_toegeven.png'), ('cbWrd', 'images/cb_toegeven.png'), ('test', 1)]), OrderedDict([('nlWrd', 'bijkomen'), ('brWrd', 'images/br_bijkomen.png'), ('cbWrd', 'images/cb_bijkomen.png'), ('test', 1)]), OrderedDict([('nlWrd', 'getuigen'), ('brWrd', 'images/br_getuigen.png'), ('cbWrd', 'images/cb_getuigen.png'), ('test', 1)]), OrderedDict([('nlWrd', 'aandelen'), ('brWrd', 'images/br_aandelen.png'), ('cbWrd', 'images/cb_aandelen.png'), ('test', 0)]), OrderedDict([('nlWrd', 'mijnheer'), ('brWrd', 'images/br_mijnheer.png'), ('cbWrd', 'images/cb_mijnheer.png'), ('test', 0)]), OrderedDict([('nlWrd', 'voorraad'), ('brWrd', 'images/br_voorraad.png'), ('cbWrd', 'images/cb_voorraad.png'), ('test', 0)]), OrderedDict([('nlWrd', 'opkijken'), ('brWrd', 'images/br_opkijken.png'), ('cbWrd', 'images/cb_opkijken.png'), ('test', 0)]), OrderedDict([('nlWrd', 'strekken'), ('brWrd', 'images/br_strekken.png'), ('cbWrd', 'images/cb_strekken.png'), ('test', 0)]), OrderedDict([('nlWrd', 'aanraden'), ('brWrd', 'images/br_aanraden.png'), ('cbWrd', 'images/cb_aanraden.png'), ('test', 0)]), OrderedDict([('nlWrd', 'goedkoop'), ('brWrd', 'images/br_goedkoop.png'), ('cbWrd', 'images/cb_goedkoop.png'), ('test', 0)]), OrderedDict([('nlWrd', 'opheffen'), ('brWrd', 'images/br_opheffen.png'), ('cbWrd', 'images/cb_opheffen.png'), ('test', 0)]), OrderedDict([('nlWrd', 'schaamte'), ('brWrd', 'images/br_schaamte.png'), ('cbWrd', 'images/cb_schaamte.png'), ('test', 0)]), OrderedDict([('nlWrd', 'weeshuis'), ('brWrd', 'images/br_weeshuis.png'), ('cbWrd', 'images/cb_weeshuis.png'), ('test', 0)]), OrderedDict([('nlWrd', 'driemaal'), ('brWrd', 'images/br_driemaal.png'), ('cbWrd', 'images/cb_driemaal.png'), ('test', 0)]), OrderedDict([('nlWrd', 'middelen'), ('brWrd', 'images/br_middelen.png'), ('cbWrd', 'images/cb_middelen.png'), ('test', 0)]), OrderedDict([('nlWrd', 'nakijken'), ('brWrd', 'images/br_nakijken.png'), ('cbWrd', 'images/cb_nakijken.png'), ('test', 0)]), OrderedDict([('nlWrd', 'spanning'), ('brWrd', 'images/br_spanning.png'), ('cbWrd', 'images/cb_spanning.png'), ('test', 0)]), OrderedDict([('nlWrd', 'bedoelen'), ('brWrd', 'images/br_bedoelen.png'), ('cbWrd', 'images/cb_bedoelen.png'), ('test', 0)]), OrderedDict([('nlWrd', 'beseffen'), ('brWrd', 'images/br_beseffen.png'), ('cbWrd', 'images/cb_beseffen.png'), ('test', 0)])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="training_d3.csv" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="train_loop" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="word_training"/>
+    <LoopTerminator name="train_loop"/>
+    <Routine name="end_training"/>
+    <Routine name="test_instr"/>
+    <LoopInitiator loopType="TrialHandler" name="test_loop">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('nlWrd', 'knie'), ('brWrd', 'images/br_knie.png'), ('cbWrd', 'images/cb_knie.png')]), OrderedDict([('nlWrd', 'hier'), ('brWrd', 'images/br_hier.png'), ('cbWrd', 'images/cb_hier.png')]), OrderedDict([('nlWrd', 'leek'), ('brWrd', 'images/br_leek.png'), ('cbWrd', 'images/cb_leek.png')]), OrderedDict([('nlWrd', 'mode'), ('brWrd', 'images/br_mode.png'), ('cbWrd', 'images/cb_mode.png')]), OrderedDict([('nlWrd', 'steel'), ('brWrd', 'images/br_steel.png'), ('cbWrd', 'images/cb_steel.png')]), OrderedDict([('nlWrd', 'laken'), ('brWrd', 'images/br_laken.png'), ('cbWrd', 'images/cb_laken.png')]), OrderedDict([('nlWrd', 'stoom'), ('brWrd', 'images/br_stoom.png'), ('cbWrd', 'images/cb_stoom.png')]), OrderedDict([('nlWrd', 'samen'), ('brWrd', 'images/br_samen.png'), ('cbWrd', 'images/cb_samen.png')]), OrderedDict([('nlWrd', 'boeien'), ('brWrd', 'images/br_boeien.png'), ('cbWrd', 'images/cb_boeien.png')]), OrderedDict([('nlWrd', 'slapen'), ('brWrd', 'images/br_slapen.png'), ('cbWrd', 'images/cb_slapen.png')]), OrderedDict([('nlWrd', 'geluid'), ('brWrd', 'images/br_geluid.png'), ('cbWrd', 'images/cb_geluid.png')]), OrderedDict([('nlWrd', 'gezond'), ('brWrd', 'images/br_gezond.png'), ('cbWrd', 'images/cb_gezond.png')]), OrderedDict([('nlWrd', 'prikken'), ('brWrd', 'images/br_prikken.png'), ('cbWrd', 'images/cb_prikken.png')]), OrderedDict([('nlWrd', 'verhaal'), ('brWrd', 'images/br_verhaal.png'), ('cbWrd', 'images/cb_verhaal.png')]), OrderedDict([('nlWrd', 'keihard'), ('brWrd', 'images/br_keihard.png'), ('cbWrd', 'images/cb_keihard.png')]), OrderedDict([('nlWrd', 'opzicht'), ('brWrd', 'images/br_opzicht.png'), ('cbWrd', 'images/cb_opzicht.png')]), OrderedDict([('nlWrd', 'bisschop'), ('brWrd', 'images/br_bisschop.png'), ('cbWrd', 'images/cb_bisschop.png')]), OrderedDict([('nlWrd', 'oprotten'), ('brWrd', 'images/br_oprotten.png'), ('cbWrd', 'images/cb_oprotten.png')]), OrderedDict([('nlWrd', 'schatten'), ('brWrd', 'images/br_schatten.png'), ('cbWrd', 'images/cb_schatten.png')]), OrderedDict([('nlWrd', 'aarzelen'), ('brWrd', 'images/br_aarzelen.png'), ('cbWrd', 'images/cb_aarzelen.png')]), OrderedDict([('nlWrd', 'gout'), ('brWrd', 'images/br_gout.png'), ('cbWrd', 'images/cb_gout.png')]), OrderedDict([('nlWrd', 'kest'), ('brWrd', 'images/br_kest.png'), ('cbWrd', 'images/cb_kest.png')]), OrderedDict([('nlWrd', 'croo'), ('brWrd', 'images/br_croo.png'), ('cbWrd', 'images/cb_croo.png')]), OrderedDict([('nlWrd', 'hust'), ('brWrd', 'images/br_hust.png'), ('cbWrd', 'images/cb_hust.png')]), OrderedDict([('nlWrd', 'twaaf'), ('brWrd', 'images/br_twaaf.png'), ('cbWrd', 'images/cb_twaaf.png')]), OrderedDict([('nlWrd', 'uviek'), ('brWrd', 'images/br_uviek.png'), ('cbWrd', 'images/cb_uviek.png')]), OrderedDict([('nlWrd', 'kwaas'), ('brWrd', 'images/br_kwaas.png'), ('cbWrd', 'images/cb_kwaas.png')]), OrderedDict([('nlWrd', 'paken'), ('brWrd', 'images/br_paken.png'), ('cbWrd', 'images/cb_paken.png')]), OrderedDict([('nlWrd', 'vlager'), ('brWrd', 'images/br_vlager.png'), ('cbWrd', 'images/cb_vlager.png')]), OrderedDict([('nlWrd', 'mugeek'), ('brWrd', 'images/br_mugeek.png'), ('cbWrd', 'images/cb_mugeek.png')]), OrderedDict([('nlWrd', 'bevret'), ('brWrd', 'images/br_bevret.png'), ('cbWrd', 'images/cb_bevret.png')]), OrderedDict([('nlWrd', 'booien'), ('brWrd', 'images/br_booien.png'), ('cbWrd', 'images/cb_booien.png')]), OrderedDict([('nlWrd', 'verwoor'), ('brWrd', 'images/br_verwoor.png'), ('cbWrd', 'images/cb_verwoor.png')]), OrderedDict([('nlWrd', 'schodel'), ('brWrd', 'images/br_schodel.png'), ('cbWrd', 'images/cb_schodel.png')]), OrderedDict([('nlWrd', 'afbopen'), ('brWrd', 'images/br_afbopen.png'), ('cbWrd', 'images/cb_afbopen.png')]), OrderedDict([('nlWrd', 'brappen'), ('brWrd', 'images/br_brappen.png'), ('cbWrd', 'images/cb_brappen.png')]), OrderedDict([('nlWrd', 'makieren'), ('brWrd', 'images/br_makieren.png'), ('cbWrd', 'images/cb_makieren.png')]), OrderedDict([('nlWrd', 'leugeren'), ('brWrd', 'images/br_leugeren.png'), ('cbWrd', 'images/cb_leugeren.png')]), OrderedDict([('nlWrd', 'theeting'), ('brWrd', 'images/br_theeting.png'), ('cbWrd', 'images/cb_theeting.png')]), OrderedDict([('nlWrd', 'leemaken'), ('brWrd', 'images/br_leemaken.png'), ('cbWrd', 'images/cb_leemaken.png')]), OrderedDict([('nlWrd', 'eens'), ('brWrd', 'images/br_eens.png'), ('cbWrd', 'images/cb_eens.png')]), OrderedDict([('nlWrd', 'zone'), ('brWrd', 'images/br_zone.png'), ('cbWrd', 'images/cb_zone.png')]), OrderedDict([('nlWrd', 'kaas'), ('brWrd', 'images/br_kaas.png'), ('cbWrd', 'images/cb_kaas.png')]), OrderedDict([('nlWrd', 'hint'), ('brWrd', 'images/br_hint.png'), ('cbWrd', 'images/cb_hint.png')]), OrderedDict([('nlWrd', 'alsof'), ('brWrd', 'images/br_alsof.png'), ('cbWrd', 'images/cb_alsof.png')]), OrderedDict([('nlWrd', 'gebod'), ('brWrd', 'images/br_gebod.png'), ('cbWrd', 'images/cb_gebod.png')]), OrderedDict([('nlWrd', 'uniek'), ('brWrd', 'images/br_uniek.png'), ('cbWrd', 'images/cb_uniek.png')]), OrderedDict([('nlWrd', 'dwang'), ('brWrd', 'images/br_dwang.png'), ('cbWrd', 'images/cb_dwang.png')]), OrderedDict([('nlWrd', 'begrip'), ('brWrd', 'images/br_begrip.png'), ('cbWrd', 'images/cb_begrip.png')]), OrderedDict([('nlWrd', 'sultan'), ('brWrd', 'images/br_sultan.png'), ('cbWrd', 'images/cb_sultan.png')]), OrderedDict([('nlWrd', 'sluier'), ('brWrd', 'images/br_sluier.png'), ('cbWrd', 'images/cb_sluier.png')]), OrderedDict([('nlWrd', 'beslag'), ('brWrd', 'images/br_beslag.png'), ('cbWrd', 'images/cb_beslag.png')]), OrderedDict([('nlWrd', 'stallen'), ('brWrd', 'images/br_stallen.png'), ('cbWrd', 'images/cb_stallen.png')]), OrderedDict([('nlWrd', 'glijden'), ('brWrd', 'images/br_glijden.png'), ('cbWrd', 'images/cb_glijden.png')]), OrderedDict([('nlWrd', 'stikken'), ('brWrd', 'images/br_stikken.png'), ('cbWrd', 'images/cb_stikken.png')]), OrderedDict([('nlWrd', 'onrecht'), ('brWrd', 'images/br_onrecht.png'), ('cbWrd', 'images/cb_onrecht.png')]), OrderedDict([('nlWrd', 'opzetten'), ('brWrd', 'images/br_opzetten.png'), ('cbWrd', 'images/cb_opzetten.png')]), OrderedDict([('nlWrd', 'invallen'), ('brWrd', 'images/br_invallen.png'), ('cbWrd', 'images/cb_invallen.png')]), OrderedDict([('nlWrd', 'verraden'), ('brWrd', 'images/br_verraden.png'), ('cbWrd', 'images/cb_verraden.png')]), OrderedDict([('nlWrd', 'jongelui'), ('brWrd', 'images/br_jongelui.png'), ('cbWrd', 'images/cb_jongelui.png')])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="test_d3.csv" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="test_loop" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="word_test"/>
+    <LoopTerminator name="test_loop"/>
+    <Routine name="end"/>
+  </Flow>
+</PsychoPy2experiment>
